@@ -1,0 +1,25 @@
+{
+    "name": "cli-calculator",
+    "version": "1.0.0",
+    "description": "A simple CLI calculator supporting basic math operations",
+    "main": "src/calculator.js",
+    "scripts": {
+        "start": "node src/calculator.js",
+        "test": "jest",
+        "test:watch": "jest --watch"
+    },
+    "bin": {
+        "calculator": "./src/calculator.js"
+    },
+    "keywords": [
+        "calculator",
+        "cli",
+        "math",
+        "nodejs"
+    ],
+    "author": "GitHub Copilot",
+    "license": "MIT",
+    "devDependencies": {
+        "jest": "^30.3.0"
+    }
+}
